@@ -1,0 +1,15 @@
+#TieuDe {
+    text-align: center;
+    font-size: 2em;
+    color: #ff0000;
+  }
+
+  #BienGioi {
+    border: none;
+    height: 5px;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  }
+  
+  #Copyright {
+    text-align: center;
+  }
