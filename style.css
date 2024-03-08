@@ -9,6 +9,11 @@
     height: 5px;
     background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
   }
+
+  #BienGioiEnd {
+    border: none;
+    height: 10px;
+  }
   
   #Copyright {
     text-align: center;
