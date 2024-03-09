@@ -32,3 +32,72 @@ Lethal Company là một game nhập vai mô phỏng độc đáo và hấp dẫ
     </p>
 </body>
 </html>
+
+
+
+
+<style>
+    body {
+  font-family: "Roboto Mono", sans-serif;
+  color: #fff;
+  background-color: #000;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  color: #00f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.image:hover {
+  opacity: 0.5;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+</style>
+
+
+
+<script>
+    const image = document.querySelector(".image");
+
+image.addEventListener("mouseover", () => {
+  image.style.opacity = 0.5;
+});
+
+image.addEventListener("mouseout", () => {
+  image.style.opacity = 1;
+});
+
+</script>
